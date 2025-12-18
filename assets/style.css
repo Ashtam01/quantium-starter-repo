@@ -1,0 +1,37 @@
+/* assets/style.css */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FDFCF0;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #DB7093; /* Pink color for Pink Morsels */
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Style the Radio Button Container */
+.selector_container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+/* Add spacing between radio options */
+.radio-item {
+    margin-right: 20px;
+    cursor: pointer;
+}
